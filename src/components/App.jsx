@@ -1,8 +1,10 @@
+import ButtonsCounter from './FeedBack/buttons';
+
 export const App = () => {
   return (
-    <div
+    <>
+     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -12,5 +14,7 @@ export const App = () => {
     >
       React homework template
     </div>
+    <ButtonsCounter />
+    </>
   );
 };
