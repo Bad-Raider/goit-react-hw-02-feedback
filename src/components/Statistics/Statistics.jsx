@@ -1,7 +1,6 @@
 
 
-const Statistics = ({ value, total, positivePercentage }) => {
-    const { good, neutral, bad } = value;
+const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
 
     return <div className="statistics">
         <p>Good:
